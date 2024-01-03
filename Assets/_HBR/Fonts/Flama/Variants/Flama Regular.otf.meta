@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2a72a060a1fdeaf4eb70b9e9d917b670
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Flama
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 57dc55fa37ce1f14bb5fbc3065b97ce4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
