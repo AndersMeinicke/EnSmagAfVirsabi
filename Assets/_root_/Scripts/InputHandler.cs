@@ -101,7 +101,8 @@ public class InputHandler : MonoBehaviour
         {
             cursor.SetActive(false);
 
-            if(objectHandler.GetComponent<ObjectHandler>().getIsActive() == true && OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, RightHandController) || objectHandler.GetComponent<ObjectHandler>().getIsActive() == true && OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, RightHandController))
+            if(objectHandler.GetComponent<ObjectHandler>().getIsActive() == true && OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, RightHandController) 
+                || objectHandler.GetComponent<ObjectHandler>().getIsActive() == true && OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, RightHandController))
             {
                 objectHandler.GetComponent<ObjectHandler>().Deactivate();
                 objectHandler = null;

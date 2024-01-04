@@ -15,6 +15,7 @@ public class ClipSender : MonoBehaviour
     public Controller thisController;
     UnityEvent DoneWithVideo = new UnityEvent();
     public FadeInOut fadeInOut;
+    public int scene;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +36,7 @@ public class ClipSender : MonoBehaviour
 
         }
         else if(isDone == true && OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, thisController)){
-            fadeInOut.levelLoader(2);
+            fadeInOut.levelLoader(scene);
         }
     }
     public void ContinueStart_AddListener(string message, GameObject machine)

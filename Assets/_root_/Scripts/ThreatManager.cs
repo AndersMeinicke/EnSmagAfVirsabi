@@ -15,16 +15,15 @@ public class ThreatManager : MonoBehaviour
     
     private void Update()
     {
-        if(threatsFound == totalThreats && noMultiLoad == true)
-        {
-            timeManager.MakeTimerStop();
-            sequence = DOTween.Sequence();
-            sequence.AppendCallback(() => FoundThreats.Instance.FinishUp());
-            sequence.AppendInterval(7);
-            sequence.AppendCallback(() => fadeInOut.levelLoader(scene));
-            noMultiLoad = false;
-            sequence.Play();
-        }
+       // if(threatsFound == totalThreats && noMultiLoad == true)
+     //   {
+     //       timeManager.MakeTimerStop();
+      //      sequence = DOTween.Sequence();
+     ////      sequence.AppendInterval(7);
+      //      sequence.AppendCallback(() => fadeInOut.levelLoader(scene));
+     //       noMultiLoad = false;
+     //       sequence.Play();
+     //   }
     }
 
     // Start is called before the first frame update

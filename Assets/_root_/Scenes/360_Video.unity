@@ -1776,6 +1776,7 @@ MonoBehaviour:
   clipAudio: {fileID: 1891507529}
   thisController: 2
   fadeInOut: {fileID: 1454293190}
+  scene: 2
 --- !u!1 &1136805787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3236,6 +3237,7 @@ MonoBehaviour:
   clipAudio: {fileID: 1891507529}
   thisController: 1
   fadeInOut: {fileID: 1454293190}
+  scene: 2
 --- !u!1 &1848177280
 GameObject:
   m_ObjectHideFlags: 0
