@@ -19,8 +19,7 @@ public class StartTheExperience : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Hit");
-        Debug.Log(other.gameObject.name);
+
         if (other.gameObject.name == "LeftHandAnchor" || other.gameObject.name == "RightHandAnchor")
         {
             GetComponent<Renderer>().material = Enter;
