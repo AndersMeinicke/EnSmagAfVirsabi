@@ -277,7 +277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &115044819
 Transform:
   m_ObjectHideFlags: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 14957f8be5097174f92c3998aa712d2d, type: 2}
+    - {fileID: 11400000, guid: a8c924ed32cd28542936dd5ef66b7afd, type: 2}
 --- !u!114 &115044821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,8 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"SphereMaster","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GreenSphere","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"GreenSphere","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1550979578}
@@ -2591,12 +2590,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SoundParts:
-  - {fileID: 8300000, guid: d379558aee255254aac790a43c76059d, type: 3}
-  - {fileID: 8300000, guid: c954f18cda727244b9467f1fba296949, type: 3}
-  - {fileID: 8300000, guid: 1eef719b98188a845acd09c9c6b25f31, type: 3}
-  - {fileID: 8300000, guid: 40734557b0fb4754e9b048abefb7dce8, type: 3}
-  - {fileID: 8300000, guid: fd5cec27d5085604186dd78b200a0326, type: 3}
-  - {fileID: 8300000, guid: ecfc544c15c90d2448bcef8192a17c67, type: 3}
+  - {fileID: 8300000, guid: 8e794598da0ec1441bf7cf3537c89d73, type: 3}
+  - {fileID: 8300000, guid: 89d5bd5873e2e9041a3f633e5d404c06, type: 3}
+  - {fileID: 8300000, guid: 99e910fc57dc9724589c75a89d866044, type: 3}
+  - {fileID: 8300000, guid: 135c9f27a4892344183559ad8b162e8f, type: 3}
+  - {fileID: 8300000, guid: 45251ef3573817945be29ca678fe6c40, type: 3}
 --- !u!4 &1583389524
 Transform:
   m_ObjectHideFlags: 0
